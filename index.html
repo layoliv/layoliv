@@ -14,19 +14,30 @@
 
 <body>
   <header class="header">
-    <img class="logo" src="img/LOGO L simple.svg" alt="">
-    <nav class="menu">
-      <ul>
-        <li><a href="">Experiência</a></li>
-        <li><a href="">Formação</a></li>
-        <li><a href="">Contato</a></li>
+    <div>
+      <a><img src="img/LOGO L simple.svg" alt="Logo L"></a>
+      <div class="header-init">
+        <span>Portfólio_</span>
+        <p>Layanne Oliveira</p>
+      </div>
+    </div>
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
-  <h1>Desenvolvedora Front End & UX/UI Designer</h1>
-  <h2>Situada em Aracaju-SE</h2>
-  <section>
-    <h1>Experiência</h1>
+  <main class="intro">
+    <img src="./img/perfil rosa.jpg" alt="Medusa">
+    <div>
+      <h1>Desenvolvedora Front End & UX/UI Designer</h1>
+      <h2>Situada em Aracaju-SE</h2>
+    </div>
+  </main>
+  <section class="experiencia" id="experiencia">
+    <h1 class="titulo">Experiência</h1>
     <h2>Desenvolvo protótipos na área de UX/UI Design com o Figma e projetos utilizando as linguagens HTML, CSS e JavaScript.</h2>
     <span>2023</span>
     <div>
@@ -61,8 +72,8 @@
       </ul>
     </div>
   </section>
-  <section>
-    <h1>Formação</h1>
+  <section class="formacao" id="formacao">
+    <h1 class="titulo">Formação</h1>
     <h2>Em 2022 finalizei a graduação em Engenharia Florestal e ingressei no curso de Front End e UX/UI Design da Origamid.</h2>
     <div>
       <span>Bacharel</span>
@@ -85,7 +96,7 @@
     <p>Francês</p>
     <span>/ Nível Intermediário (B1)</span>
   </section>
-  <footer>
+  <footer class="contato" id="contato" >
     <h2>Estou disponível para novos projetos no momento.<br>Entre em contato comigo<img src="img/waving.svg" alt="Símbolo Mão"></h2>
     <ul>
       <li><a href="https://www.linkedin.com/in/layoliveira/" target="_blank" rel="external">in/layoliveira/</a></li>
