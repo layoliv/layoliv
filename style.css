@@ -17,12 +17,19 @@ img {
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
   margin: 40px;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -40,7 +47,7 @@ body {
 .header-init {
   display: block; 
   justify-items: start;  
-  line-height: 1.3em; 
+  line-height: 1.5em; 
 }
 
 .header-init span {
@@ -49,8 +56,8 @@ body {
   letter-spacing: 0.10em;
   color: #A34430;
   background: #FFE9E5;
-  padding: 3px;
-  border-radius: 2px;
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .header-init p {
@@ -63,3 +70,21 @@ body {
   display: flex;
 }
 
+.header-menu li a {
+  color: #732D1E;
+  font-size: 0.975em;
+  letter-spacing: 0.06em;
+  padding: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.header-menu li + li {
+  margin-left: 45px;
+}
+
+.header-menu li a:hover {
+  color: #A34430;
+  background: #FFE9E5;
+  border-radius: 3px;
+
+}
