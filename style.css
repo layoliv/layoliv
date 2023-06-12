@@ -225,6 +225,7 @@ body {
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
   padding: 120px 20px;
+  gap: 100px;
   position: relative;
   /* overflow: visible; */
 }
@@ -253,30 +254,68 @@ body {
   flex-wrap: wrap;
   justify-content: start;
   gap: 20px;
+  margin-top: -200px;
 }
 
 .form li {
   background: #a34430;
   flex: 1;
-  width: 206px;
+  /* width: 206px; */
   padding: 20px;
-  /* align-content: center; */
   border-radius: 6px;
-
 }
 
-.form span {
+.form-titulo {
   display: block;
   text-transform: uppercase;
   font-size: 0.9rem;
-  margin-bottom: 15px;
 }
 
 .form h3 {
   font-size: 1.125rem;
   line-height: 1.4;
-  margin-bottom: 60px;
-
+  margin: 15px 0 60px 0;
 }
 
+.form-inst {
+  font-size: 1.125rem;
+}
 
+.idiomas {
+  grid-column: 2;
+}
+
+.idiomas h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: rgba(228, 99, 72, 0.85);
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.idiomas h3::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../img/idiomas.svg);
+  left: 432px;
+}
+
+.idiomas-lista {
+  color: #FCECE7;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  
+}
+
+.idiomas-lista li {
+  margin-bottom: 20px;
+}
+
+.idiomas-lista span {
+
+  color: #ffdfd2;
+  
+}
