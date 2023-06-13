@@ -45,42 +45,6 @@ img {
 
 
 
-.bio {
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  gap: 100px;
-}
-
-.bio img {
-  grid-column: 1 / 2;
-  max-width: 300px;
-  margin-left: 42px;
-}
-
-.bio div {
-  grid-column: 2 / -1;
-  max-width: 720px;
-}
-
-.bio h1 {
-  font-size: 3.75em;
-  line-height: 1em;
-  color: #732D1E;
-  margin-bottom: 30px;
-}
-
-.bio h2 {
-  font-weight: normal;
-  font-size: 1.3em;
-  color: #732D1E;
-  text-align: justify;
-  line-height: 1.5em;
-  max-width: 45ch;
-  /* letter-spacing: -0.015em; */
-}
-
 .experiencia {
   max-width: 1200px;
   display: grid;
