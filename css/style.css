@@ -4,3 +4,26 @@
 @import './experiencia.css';
 @import './formacao.css';
 @import './footer.css';
+
+
+/* @keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    max-height: 200px;
+    opacity: 1;
+  }
+} */
+
+[data-anime="scroll"] {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .9s;
+}
+
+[data-anime="scroll"].ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
